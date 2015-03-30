@@ -44,6 +44,9 @@ group :development, :test do
 
   # Annotate models with commented out info about the schema
   gem 'annotate', '~> 2.6.6'
+
+  # Quiet those assets down!  Reduces noise in the logs
+  gem 'quiet_assets'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
